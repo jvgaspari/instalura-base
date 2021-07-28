@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../../theme/Logo/Index";
+import Logo from "../../../theme/Logo/index";
 import { Button } from "../Button";
 import { MenuWrapper } from "./styles/MenuWrapper";
 
