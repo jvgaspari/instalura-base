@@ -4,7 +4,7 @@ import { css } from "styled-components";
 export function propToStyle(propName, props) {
     return function(props) {
         const propValue = props[propName];
-        if(typeof propValue === 'string'){
+        if(typeof propValue === 'string' || typeof propValue === 'number'){
             return {
                 // textAlign: props[textAlign]
                 [propName]: propValue
